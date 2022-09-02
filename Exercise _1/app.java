@@ -54,6 +54,34 @@ public class App {
         dragon.name = "Ancient Wyvern";
         dragon.enemyDialogue();
 
+        //Weapon Class
+        Weapon blade = new Weapon();
+
+        blade.damage = 30;
+        blade.weight = 6;
+        blade.rarity = "Legendary";
+        blade.name = "Blade of the Ruined King";
+        blade.description = "The Blade of the Ruined King is an extremely powerful Legendary Sword of the cursed King.";
+        blade.weaponDescription();
+
+        Weapon magic = new Weapon();
+
+        magic.damage = 15;
+        magic.weight = 2;
+        magic.rarity = "Common";
+        magic.name = "Zhonyas Hourglass";
+        magic.description = "The Zhonyas Hourglass is an ability that lets you become invulnerable and untargetable for 3 seconds, but unable to move or attack upon casting.";
+        magic.weaponDescription();
+
+        Weapon hammer = new Weapon();
+
+        hammer.damage = 28;
+        hammer.weight = 8;
+        hammer.rarity = "Hidden";
+        hammer.name = "Hull Breaker";
+        hammer.description = "The Hull Breaker is a split-pushing weapon that has additional damaged to structures.";
+        hammer.weaponDescription();
+
         // Exercise 1
         // 1. Create a "Weapon" class.
 
